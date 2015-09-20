@@ -6,7 +6,7 @@ alias editvim="vim ~/Repositories/portable/.vimrc"
 alias loadbash="~/Repositories/portable/load.sh"
 alias sql6872="mysql -h safar.csail.mit.edu -u mimic2 -p mimic2v26"
 function pushportable() {
-	currentDir = $(pwd)
+	currentDir=$(pwd)
 	cd ~/Repositories/portable
 	git add -A
 	git commit -am .
