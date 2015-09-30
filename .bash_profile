@@ -1,5 +1,6 @@
 export PATH=/usr/local/mysql/bin:$PATH
 alias lsl="ls -l"
+alias cdmit="cd ~/Google\ Drive/MIT"
 set insert-completions on
 alias editbash="vim ~/Repositories/portable/.bash_profile"
 alias editvim="vim ~/Repositories/portable/.vimrc"
